@@ -2,7 +2,7 @@ import {read, utils} from 'xlsx';
 import manifest from '../../public/data/manifest.json';
 import type {SurveyRecord} from './types';
 
-export const workbookUrl = 'https://raw.githubusercontent.com/GurucharanSavanth/Airtel-VS-JIO/main/data/survey.xlsx';
+export const workbookUrl = 'https://raw.githubusercontent.com/GurucharanSavanth/Maker/main/data/survey.xlsx';
 const normalize = (value:unknown) => String(value ?? '').normalize('NFKC').trim().replace(/\s+/gu, ' ');
 const selections = (value:unknown) => [...new Set(normalize(value).split(';').map(normalize).filter(Boolean))];
 const columns:Record<string,number> = {reliability:8,coverage:9,speed:10,promise:11,access:13,response:14,resolution:15,assurance:16,empathy:17,digital:18,recovery:22,fairness:24,continue:28,recommend:29};
