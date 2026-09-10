@@ -23,7 +23,7 @@ jobs:
       - run: npm test
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /Airtel-VS-JIO
+          NEXT_PUBLIC_BASE_PATH: /Maker
       - uses: actions/configure-pages@v5
         with:
           enablement: true
