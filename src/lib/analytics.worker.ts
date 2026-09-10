@@ -1,0 +1,2 @@
+import {bootstrap,permutation} from './analytics';
+self.onmessage=(event:MessageEvent<{request:number;type:string;a:number[];b:number[];seed:number}>)=>{const {request,type,a,b,seed}=event.data;try{self.postMessage({request,result:type==='bootstrap'?bootstrap(a,b,seed):permutation(a,b,seed)})}catch{self.postMessage({request,error:'This calculation could not be completed. Adjust the selection and try again.'})}};

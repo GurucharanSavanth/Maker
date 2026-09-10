@@ -1,0 +1,32 @@
+{
+  "name": "airtel-jio-experience-audit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "node scripts/serve.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "tsc --noEmit",
+    "qa": "node scripts/qa.mjs"
+  },
+  "dependencies": {
+    "echarts": "6.1.0",
+    "jstat": "1.9.6",
+    "motion": "13.2.0",
+    "next": "16.3.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "lighthouse": "^13.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

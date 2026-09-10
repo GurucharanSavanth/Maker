@@ -1,0 +1,20 @@
+{
+  "version": "1.0.1",
+  "reviewer": "Codex semantic review",
+  "definition": "Themes are explicit mentions, not inferred causes. More than one theme may match a response; counts overlap. Exact phrase matching after Unicode and punctuation normalization.",
+  "themes": [
+    {"id":"network","label":"Network & connectivity","phrases":["network","coverage","signal","mobile data","data speed","5g","4g","call quality","call drop","call drops","calls occasionally disconnect","calls kept disconnecting","home broadband","fiber outage","fiber connection","fiber restoration","roaming","slowdown","congested locations","handover between towers","crowded areas become noticeably slower","capacity at transit"]},
+    {"id":"billing","label":"Billing & charges","phrases":["billing","bill","charges","service suspension","line was restricted","itemized"]},
+    {"id":"recharge_refunds","label":"Payments, recharge & refunds","phrases":["recharge","refund","refunds","payment","payments","payment options","auto renewal","debit failures","upi"]},
+    {"id":"activation","label":"Activation & portability","phrases":["activation","new sim","sim remained inactive","number transfer","porting","number portability"]},
+    {"id":"installation","label":"Installation & visits","phrases":["installation","technician","appointment slots","service windows"]},
+    {"id":"support","label":"Support & complaint handling","phrases":["support","customer care","complaint","complaints","ticket","regional language","local language assistance","unresolved","multiple teams","trained person","ownership of the issue","realistic timeline","being passed around","realistic repair window","faults can take too long"]},
+    {"id":"apps","label":"Apps & self-service","phrases":["app","self service","digital only","senior friendly","assisted service"]},
+    {"id":"entitlements","label":"Plans & entitlements","phrases":["ott","bundling","included subscriptions","family plan","plan selection","plan clarity","benefits","limits and exclusions","multiple numbers"]},
+    {"id":"pricing","label":"Affordability & flexibility","phrases":["student plans","low cost","smaller plans","affordable","value for money","pricing","flexible options"]},
+    {"id":"hardware","label":"Router & Wi-Fi equipment","phrases":["router","wi fi access","wi fi equipment"]},
+    {"id":"television","label":"DTH & television","phrases":["dth","television"]},
+    {"id":"communication","label":"Communication & notifications","phrases":["communication","clear update","status message","service notifications","status notifications","updates arrive late","outage communication","plan is about to expire"]},
+    {"id":"retail","label":"Stores & assisted access","phrases":["store staff","store experience","waiting time varies","token or appointment","nearest store","visit the store"]}
+  ]
+}

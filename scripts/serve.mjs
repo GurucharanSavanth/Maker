@@ -1,0 +1,8 @@
+import http from 'node:http';
+import {readFile,stat} from 'node:fs/promises';
+import {resolve,extname,sep} from 'node:path';
+import {gzipSync} from 'node:zlib';
+const root=resolve('out');
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.txt':'text/plain; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.ico':'image/x-icon','.woff2':'font/woff2'};
+const server=http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://127.0.0.1'),path=decodeURIComponent(url.pathname);let file=resolve(root,'.'+path);if(file!==root&&!file.startsWith(root+sep)){res.writeHead(403);res.end('Forbidden');return;}let info;try{info=await stat(file)}catch{}if(info?.isDirectory()){if(!path.endsWith('/')){res.writeHead(308,{Location:path+'/'+url.search});res.end();return;}file=resolve(file,'index.html');}let body,status=200;try{body=await readFile(file)}catch{status=404;file=resolve(root,'404.html');body=await readFile(file)}const type=mime[extname(file)]??'application/octet-stream';const headers={'Content-Type':type,'X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','X-Robots-Tag':'noindex, nofollow','Cache-Control':'no-cache'};if(req.headers['accept-encoding']?.includes('gzip')&&/text|json|javascript/.test(type)){body=gzipSync(body);headers['Content-Encoding']='gzip';headers.Vary='Accept-Encoding'}res.writeHead(status,headers);res.end(req.method==='HEAD'?undefined:body)}catch{res.writeHead(400);res.end('Bad request')}});
+server.listen(4173,'127.0.0.1',()=>console.log('Local preview: http://127.0.0.1:4173'));

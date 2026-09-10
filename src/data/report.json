@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "title": "From Promise to Experience",
+    "thesis": "Airtel’s premium positioning and Jio’s ecosystem scale create different service expectations and execution risks.",
+    "frameworkStatus": "The 7Ps, GAP diagnostics and service blueprints are managerial interpretations reconstructed from the supplied presentation information base.",
+    "recommendationStatus": "Controls, recovery responses, roadmap horizons, priorities and KPIs are proposals, not measured operator practices, announced commitments or demonstrated effects.",
+    "journeyStatus": "Journey stages describe analytical failure hypotheses, not measured failure frequencies.",
+    "sourceLimitation": "The original PowerPoint is unavailable; the 15-slide structure follows the supplied Markdown reconstruction.",
+    "surveyProvenance": "Calculated from the supplied workbook; customer-response origin confirmed by the project owner."
+  },
+  "research": [
+    {
+      "id": "mix",
+      "title": "The service promise",
+      "question": "How do Airtel and Jio differ across the 7Ps, and which differences could matter for subscriber lifetime value?",
+      "framework": "The extended services marketing mix connects commercial positioning with people, processes and visible service cues.",
+      "evidence": "Operator reporting establishes monetisation and scale, while the reconstructed presentation supplies the strategic comparison.",
+      "limitation": "Positioning does not demonstrate superior delivery, and the supplied survey does not measure customer lifetime value."
+    },
+    {
+      "id": "perception",
+      "title": "The evidence boundary",
+      "question": "Which SERVQUAL dimensions have defensible evidence, and where are the measurements incomplete?",
+      "framework": "SERVQUAL distinguishes reliability, responsiveness, assurance, empathy and tangibles.",
+      "evidence": "Survey items measure customer perceptions, while Opensignal measures defined network experiences independently.",
+      "limitation": "Missing expectation questions and physical-tangibles items prevent classical SERVQUAL gaps or a complete validated five-dimension score."
+    },
+    {
+      "id": "gaps",
+      "title": "The execution gap",
+      "question": "Where could the five service-quality gaps arise in Airtel’s system, and which operating controls could reduce them?",
+      "framework": "The GAP Model links customer knowledge, service standards, delivery, communication and perceived experience.",
+      "evidence": "Dated network measures and the presentation’s operating hypotheses identify questions for local investigation.",
+      "limitation": "Public national averages and the survey cannot establish an operator’s internal root causes or local process performance."
+    },
+    {
+      "id": "recovery",
+      "title": "The recovery test",
+      "question": "Where can mobile and broadband journeys fail, and how should fairness shape the recovery?",
+      "framework": "Service blueprints expose handoffs, while distributive, procedural and interactional justice guide remedies.",
+      "evidence": "The reconstructed journeys identify failure modes and eligible survey responses describe support and recovery perceptions.",
+      "limitation": "The playbook is a proposed design; observed survey associations cannot prove that a remedy will improve retention."
+    }
+  ],
+  "ps": [
+    {
+      "id": "product",
+      "label": "Product",
+      "category": "commercial",
+      "airtel": "Premium postpaid, convergence, roaming and Fast Lane express a proposition built around higher-value customer needs.",
+      "jio": "True 5G, JioFiber, JioAirFiber and entertainment or cloud services connect customers to a broad digital ecosystem.",
+      "difference": "Airtel emphasizes premium value and convergence, while Jio emphasizes ecosystem attachment and broadband scale.",
+      "expectation": "The purchased plan, network feature and bundled benefit should work together in the customer’s actual context.",
+      "dependency": "Device compatibility, local coverage, provisioning and partner entitlement systems must agree on eligibility.",
+      "failure": "A plan is active but a promised network feature or bundled benefit remains unavailable.",
+      "implication": "Validate complete service blueprints before launch and give every entitlement exception one accountable owner.",
+      "kpi": "Proposed KPI: payment-to-entitlement success rate and unresolved entitlement exceptions.",
+      "evidence": ["airtel-q1", "jio-q1", "source-deck"]
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "category": "commercial",
+      "airtel": "Higher reported mobile ARPU is consistent with Airtel’s premiumisation and higher-value customer mix.",
+      "jio": "Jio combines a lower reported mobile ARPU with a larger customer base and bundled ecosystem value.",
+      "difference": "Airtel seeks more monetisation per user, while Jio combines scale with rising monetisation.",
+      "expectation": "Customers choosing a premium proposition may expect its value to be visible in everyday service and recovery.",
+      "dependency": "Segment-level network, provisioning, support and recovery performance must be observable across the full journey.",
+      "failure": "A higher-value plan creates an expectation that inconsistent local delivery cannot meet.",
+      "implication": "Define postpaid service objectives and test whether the premium segment experiences the intended differentiation.",
+      "kpi": "Proposed KPI: postpaid customer effort, repeat contact, entitlement success and p90 recovery time.",
+      "evidence": ["airtel-q1", "jio-q1", "source-deck"]
+    },
+    {
+      "id": "place",
+      "label": "Place",
+      "category": "commercial",
+      "airtel": "The Airtel App, retail stores, contact centres and roaming partnerships provide multiple access points.",
+      "jio": "MyJio, digital self-service, retail access and home-installation teams connect online and physical service.",
+      "difference": "Both are omnichannel; continuity of customer context is a more useful diagnostic than channel count alone.",
+      "expectation": "Moving from an app to a call or store should preserve the issue, evidence and promised next step.",
+      "dependency": "A common case identifier and diagnostic history must be accessible to every responsible channel.",
+      "failure": "Customers repeat their problem because channel handoffs lose history or ownership.",
+      "implication": "Make one case history available across channels and explicitly transfer responsibility at each handoff.",
+      "kpi": "Proposed KPI: context-preserving handoff rate and repeat contact within seven days.",
+      "evidence": ["source-deck"]
+    },
+    {
+      "id": "promotion",
+      "label": "Promotion",
+      "category": "commercial",
+      "airtel": "Premium network experience, convergence rewards and postpaid positioning raise the prominence of service quality.",
+      "jio": "5G, affordability, entertainment and device bundles emphasize technology access and ecosystem value.",
+      "difference": "Airtel’s promise raises a quality reference point, while Jio’s promise broadens the range of benefits customers expect.",
+      "expectation": "Headline claims should remain accurate after location, device, software and plan conditions are considered.",
+      "dependency": "Marketing content must reflect verified product conditions and current eligibility information.",
+      "failure": "A broad promotional claim is interpreted as a guarantee in an unsupported customer context.",
+      "implication": "Place clear conditions and a device or location eligibility check beside the promise.",
+      "kpi": "Proposed KPI: eligibility-check completion and complaints linked to expectation mismatch.",
+      "evidence": ["airtel-q1", "jio-q1", "source-deck"]
+    },
+    {
+      "id": "people",
+      "label": "People",
+      "category": "delivery",
+      "airtel": "A premium proposition makes frontline diagnostic competence, ownership and remedy authority especially visible.",
+      "jio": "Service at large scale requires consistent agent capability and a practical path for exceptions to reach an owner.",
+      "difference": "The presentation frames Airtel’s risk as inconsistent premium support and Jio’s risk as exception handling at volume.",
+      "expectation": "The person handling a problem should understand its context and be able to move it toward resolution.",
+      "dependency": "Agents need shared diagnostics, clear escalation paths and authority matched to the failure’s severity.",
+      "failure": "Script-bound support repeatedly escalates an issue without restoring service or explaining the next step.",
+      "implication": "Define remedy authority for recurring failure classes and coach for competent, respectful ownership.",
+      "kpi": "Proposed KPI: time to remedy, escalation rate and post-recovery satisfaction.",
+      "evidence": ["source-deck", "survey"]
+    },
+    {
+      "id": "process",
+      "label": "Process",
+      "category": "delivery",
+      "airtel": "Onboarding, postpaid upgrades, billing and home feasibility must consistently support the premium proposition.",
+      "jio": "The presentation describes automation as a strategic signal, but comparative straight-through performance is unverified.",
+      "difference": "Airtel must demonstrate disciplined execution, while Jio must keep automated journeys and exception recovery coherent at scale.",
+      "expectation": "Payment, activation, installation and support should complete without the customer coordinating internal systems.",
+      "dependency": "Billing, entitlement, provisioning, field scheduling and case management must share reliable state transitions.",
+      "failure": "A payment succeeds, a plan changes or an order is accepted without its dependent service becoming ready.",
+      "implication": "Monitor the end-to-end outcome and route broken handoffs into a visible recovery process.",
+      "kpi": "Proposed KPI: exception rate, payment-to-entitlement success and installation on the committed date.",
+      "evidence": ["source-deck"]
+    },
+    {
+      "id": "physical-evidence",
+      "label": "Physical Evidence",
+      "category": "delivery",
+      "airtel": "Stores, bills, equipment, installation workmanship and app status make an intangible premium promise visible.",
+      "jio": "Apps, routers, set-top boxes and installation closeout provide visible cues across the home and digital ecosystem.",
+      "difference": "The relevant comparison is the clarity and consistency of service cues, not an established overall tangibles advantage.",
+      "expectation": "Bills, ticket timelines and installed equipment should clearly show what was delivered and what remains open.",
+      "dependency": "Customer-facing status must match backend state, while field teams verify and document installation quality.",
+      "failure": "Opaque status, unclear bills or poor router placement undermine trust despite an active connection.",
+      "implication": "Use clear status trackers, understandable bills and a customer-confirmed installation checklist.",
+      "kpi": "Proposed KPI: status accuracy, installation verification and repeat visits after closeout.",
+      "evidence": ["source-deck", "survey"]
+    }
+  ],
+  "controls": [
+    {
+      "id": "entitlement",
+      "title": "Product ↔ Process",
+      "question": "Can every advertised entitlement be delivered in the customer’s actual device and location context?",
+      "dependency": "Pre-launch service blueprints and multi-system tests require one accountable entitlement owner.",
+      "risk": "An active plan with a missing benefit turns an internal integration defect into a broken customer promise.",
+      "kpi": "Proposed KPI: entitlement success rate and time to resolve entitlement exceptions.",
+      "evidence": ["source-deck"]
+    },
+    {
+      "id": "premium",
+      "title": "Price ↔ Reliability",
+      "question": "Does the postpaid or convergence segment experience the intended end-to-end service differentiation?",
+      "dependency": "Segment-level experience and recovery measurements must connect network delivery with provisioning and care.",
+      "risk": "Premium positioning becomes harder to sustain when daily service does not visibly justify the expectation.",
+      "kpi": "Proposed KPI: segment-level experience quality, customer effort and p90 recovery time.",
+      "evidence": ["airtel-q1", "jio-q1", "opensignal-feb", "source-deck"]
+    },
+    {
+      "id": "eligibility",
+      "title": "Promotion ↔ Local Reality",
+      "question": "Do promotional claims accurately reflect local coverage, device compatibility and plan eligibility?",
+      "dependency": "Location-aware messaging needs a maintained eligibility checker and plain-language conditions.",
+      "risk": "Customers may mistake a conditional feature claim for a promise that applies everywhere.",
+      "kpi": "Proposed KPI: eligibility accuracy and complaints associated with misleading expectations.",
+      "evidence": ["source-deck"]
+    },
+    {
+      "id": "context",
+      "title": "Place ↔ Context",
+      "question": "Does customer history persist from app to contact centre to retail?",
+      "dependency": "Every channel must use a unified case identifier and a common diagnostic timeline.",
+      "risk": "Lost history creates repeated explanations, redundant diagnosis and unclear ownership.",
+      "kpi": "Proposed KPI: context-preserving transfers and repeat contact within seven days.",
+      "evidence": ["source-deck"]
+    },
+    {
+      "id": "authority",
+      "title": "People ↔ Recovery",
+      "question": "Can frontline staff resolve or compensate for defined failures without excessive escalation?",
+      "dependency": "Clear authority bands must link failure severity, available remedies and escalation responsibility.",
+      "risk": "Unempowered agents extend customer effort even when the failure and appropriate remedy are already known.",
+      "kpi": "Proposed KPI: time to remedy, escalation rate and recovery satisfaction.",
+      "evidence": ["source-deck", "survey"]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "knowledge",
+      "label": "1 · Knowledge",
+      "definition": "Customer expectations and management’s understanding of them do not fully align.",
+      "diagnostic": "National averages can hide indoor, corridor and local installation variability.",
+      "risk": "Proposed risk: medium.",
+      "symptom": "A customer reports a persistent local problem while aggregate performance appears acceptable.",
+      "cause": "A plausible cause is insufficient connection between local customer feedback and operational telemetry.",
+      "correction": "Combine circle or cluster voice-of-customer analysis with relevant network and provisioning evidence.",
+      "kpi": "Proposed KPI: locally classified complaints and the share linked to relevant diagnostic evidence."
+    },
+    {
+      "id": "standards",
+      "label": "2 · Standards",
+      "definition": "Management’s understanding of customer needs is not fully translated into service standards.",
+      "diagnostic": "Meeting regulatory compliance requirements does not by itself establish premium end-to-end experience.",
+      "risk": "Proposed risk: high.",
+      "symptom": "A service meets a minimum benchmark while customers still encounter effortful or inconsistent journeys.",
+      "cause": "A plausible cause is the absence of explicit internal objectives for the experience promised to premium segments.",
+      "correction": "Define measurable network, provisioning, support and recovery objectives above applicable minimum requirements where needed.",
+      "kpi": "Proposed KPI: attainment of defined postpaid experience and recovery objectives."
+    },
+    {
+      "id": "delivery",
+      "label": "3 · Delivery",
+      "definition": "Actual delivery falls short of the service standards the organization intends to meet.",
+      "diagnostic": "Congestion, billing lags, provisioning defects and field delays can break otherwise sound service designs.",
+      "risk": "Proposed risk: high.",
+      "symptom": "An accepted payment, plan change or installation promise fails to produce the expected service.",
+      "cause": "A plausible cause is a broken cross-system handoff or an exception without an accountable owner.",
+      "correction": "Use closed-loop assurance to enrich or trigger service cases from relevant operational events.",
+      "kpi": "Proposed KPI: exception rate, entitlement success and installation on the committed date."
+    },
+    {
+      "id": "communication",
+      "label": "4 · Communication",
+      "definition": "The experience communicated to customers differs from what the service can deliver in their context.",
+      "diagnostic": "A broad premium claim may exceed actual local coverage, device capability or plan eligibility.",
+      "risk": "Proposed risk: medium.",
+      "symptom": "A customer expects a promoted feature that their device or location cannot support.",
+      "cause": "A plausible cause is conditional product language that is difficult to find or interpret before purchase.",
+      "correction": "Place device and location checks with the offer and explain conditions in plain language.",
+      "kpi": "Proposed KPI: eligibility-check accuracy and expectation-related complaints."
+    },
+    {
+      "id": "perception",
+      "label": "5 · Perception",
+      "definition": "The customer’s expected experience differs from their perceived experience.",
+      "diagnostic": "Premium positioning may raise the reference point against which a customer judges everyday service.",
+      "risk": "Proposed risk: potentially high.",
+      "symptom": "Customers may judge an apparently acceptable technical result as poor value after repeated effort or weak recovery.",
+      "cause": "A plausible cause is the combined effect of mismatched expectations, delivery failures and unresolved customer effort.",
+      "correction": "Run expectation and perception studies alongside customer-effort and post-recovery measurement.",
+      "kpi": "Proposed KPI: validated perception and expectation measures, effort and post-recovery satisfaction."
+    }
+  ],
+  "journeys": {
+    "mobile": {
+      "title": "Mobile acquisition to routine use",
+      "stages": [
+        {
+          "id": "discover",
+          "title": "Discover & choose",
+          "job": "Choose a mobile plan that fits everyday usage and device needs.",
+          "touchpoint": "The plan comparison page, app or retail conversation explains features and conditions.",
+          "failure": "Plan complexity, OTT conditions or unclear 5G eligibility create confusion before purchase.",
+          "dependency": "The offer catalogue must reflect actual device, location and entitlement conditions.",
+          "impact": "The customer begins the relationship with an expectation the selected plan may not meet.",
+          "recovery": "Offer an eligibility-led comparison and explain feature limits before commitment."
+        },
+        {
+          "id": "activate",
+          "title": "KYC & port-in",
+          "job": "Move to the operator and activate service with a clear view of progress.",
+          "touchpoint": "Digital onboarding, the retail desk and activation notifications guide the transfer.",
+          "failure": "A KYC exception, porting delay or database mismatch leaves activation status unclear.",
+          "dependency": "Identity checks, porting workflows and provisioning records must maintain consistent order state.",
+          "impact": "Uncertainty prompts anxiety and repeated contact before the service relationship is established.",
+          "recovery": "Provide one activation tracker, proactive status updates and a named exception owner."
+        },
+        {
+          "id": "first-5g",
+          "title": "First 5G use",
+          "job": "Use the high-value network feature promised with the plan.",
+          "touchpoint": "The customer’s device, network indicator and operator app make readiness visible.",
+          "failure": "Device incompatibility, outdated software, limited local coverage or a missing entitlement blocks access.",
+          "dependency": "Radio coverage, device configuration, plan eligibility and provisioning must all be ready.",
+          "impact": "An unavailable feature can create an immediate perception that the promise was not delivered.",
+          "recovery": "Provide a device and eligibility pre-check with specific corrective steps and assisted escalation."
+        },
+        {
+          "id": "routine",
+          "title": "Routine use",
+          "job": "Rely on everyday calls, streaming and work across the places that matter.",
+          "touchpoint": "Daily network use and issue reporting expose the customer’s local experience.",
+          "failure": "Indoor congestion, dropped sessions, weak handovers or local degradation interrupt routine use.",
+          "dependency": "Cell-level experience monitoring and usable complaint diagnostics must identify persistent local issues.",
+          "impact": "Repeated inconsistency can erode trust and increase consideration of switching.",
+          "recovery": "Use relevant local diagnostics, communicate the incident status and verify restoration with the customer."
+        }
+      ]
+    },
+    "billing": {
+      "title": "Recharge, billing & entitlement",
+      "stages": [
+        {
+          "id": "payment",
+          "title": "Payment → benefit",
+          "job": "Pay for a recharge or plan and receive its benefits without delay or duplication.",
+          "touchpoint": "The payment receipt and app balance show whether the purchase has completed.",
+          "failure": "Money is debited while the purchased benefit remains absent.",
+          "dependency": "Payment confirmation, billing and entitlement systems must reconcile the same transaction.",
+          "impact": "The customer loses access or available funds and may repeat the payment unnecessarily.",
+          "recovery": "Show payment status, reconcile automatically and restore the benefit or reverse the transaction where appropriate."
+        },
+        {
+          "id": "charges",
+          "title": "Understand the bill",
+          "job": "Understand current charges, renewal conditions and changes from the previous bill.",
+          "touchpoint": "The itemized bill, renewal notice and dispute flow explain what the customer owes.",
+          "failure": "An unexpected pack charge or unclear renewal appears without a usable explanation.",
+          "dependency": "Tariff records, renewal events and billing history must be available in a common view.",
+          "impact": "Unexplained charges reduce confidence and create avoidable dispute effort.",
+          "recovery": "Provide a plain-language line-item breakdown, historical context and an accessible dispute owner."
+        },
+        {
+          "id": "redemption",
+          "title": "Redeem a benefit",
+          "job": "Activate the OTT subscription or reward included with the chosen service.",
+          "touchpoint": "The operator app and partner redemption page hand the customer into the bundled service.",
+          "failure": "A partner API or entitlement integration fails despite the customer being eligible.",
+          "dependency": "Operator and partner systems must agree on customer eligibility and redemption status.",
+          "impact": "The bundle’s perceived value falls as the customer is passed between organizations.",
+          "recovery": "Keep end-to-end case ownership with the operator and coordinate the partner correction internally."
+        }
+      ]
+    },
+    "home": {
+      "title": "Home broadband installation",
+      "stages": [
+        {
+          "id": "feasibility",
+          "title": "Confirm feasibility",
+          "job": "Know whether broadband can be installed at the address before making a firm commitment.",
+          "touchpoint": "The availability checker, order confirmation and installation date set the initial expectation.",
+          "failure": "An order or payment is accepted before local physical feasibility is confirmed.",
+          "dependency": "Address validation, local capacity and field feasibility checks must inform order promises.",
+          "impact": "An uncertain installation date leaves the customer waiting for a service that may not be deliverable.",
+          "recovery": "Validate feasibility first and provide realistic dates, clear order state and a cancellation path when needed."
+        },
+        {
+          "id": "appointment",
+          "title": "Keep the appointment",
+          "job": "Have the installation completed during the agreed visit window.",
+          "touchpoint": "Appointment confirmations, engineer updates and rescheduling controls coordinate the visit.",
+          "failure": "A scheduling or dispatch problem causes an engineer no-show or unannounced delay.",
+          "dependency": "Field capacity, dispatch state and customer notifications must remain synchronized.",
+          "impact": "The customer loses time and must reorganize work or household commitments.",
+          "recovery": "Warn before a likely missed visit, enable self-rescheduling and apply a proportionate remedy where appropriate."
+        },
+        {
+          "id": "wifi",
+          "title": "Verify room coverage",
+          "job": "Use the installed connection reliably in the rooms where connectivity is needed.",
+          "touchpoint": "Router placement, the installation walkthrough and customer sign-off demonstrate readiness.",
+          "failure": "Poor placement, weak room coverage or incomplete testing leaves a technically active but disappointing service.",
+          "dependency": "The installer needs a room-coverage checklist, appropriate equipment placement and a documented closeout.",
+          "impact": "Customers may attribute an in-home Wi-Fi problem to the entire broadband service.",
+          "recovery": "Validate coverage with the customer, correct workmanship and verify the result before closing the visit."
+        }
+      ]
+    }
+  },
+  "recovery": [
+    {
+      "id": "S1",
+      "label": "Friction",
+      "examples": ["Plan confusion", "Minor app glitch", "One failed self-service attempt"],
+      "response": "Correct digitally first and transfer seamlessly to assisted support when the attempt does not resolve the issue.",
+      "remedy": "Give an immediate explanation and a usable in-app correction.",
+      "kpi": "Proposed KPI: digital containment and repeat contact within 24 hours.",
+      "distributive": "Restore the expected function or give a clear explanation that addresses the actual confusion.",
+      "procedural": "Keep correction short and preserve context if the customer needs assisted help.",
+      "interactional": "Use respectful language and acknowledge the inconvenience without blaming the customer."
+    },
+    {
+      "id": "S2",
+      "label": "Material failure",
+      "examples": ["Billing mismatch", "Missed installation appointment", "OTT entitlement failure"],
+      "response": "Assign one case owner, diagnose the relevant backend issue and send proactive progress updates.",
+      "remedy": "Restore service or access and consider a proportionate credit or validity extension where appropriate.",
+      "kpi": "Proposed KPI: p90 time to resolution and repeat contact within seven days.",
+      "distributive": "Match the restoration and any credit to the documented loss of access, time or value.",
+      "procedural": "Provide a transparent case timeline and let the owner coordinate internal or partner handoffs.",
+      "interactional": "Explain the failure competently, acknowledge its impact and take responsibility for the next step."
+    },
+    {
+      "id": "S3",
+      "label": "Critical failure",
+      "examples": ["Extended outage", "Repeated missed installations", "Unresolved multi-contact dispute"],
+      "response": "Use high-priority incident handling, bypass repetitive scripts and conduct formal root-cause analysis.",
+      "remedy": "Provide a clear explanation, proportionate compensation and verified restoration.",
+      "kpi": "Proposed KPI: root-cause closure and observed churn or port-out at 30 and 60 days.",
+      "distributive": "Match the remedy to the failure’s duration, severity and documented customer impact.",
+      "procedural": "Give a responsible escalation owner and verify recovery before closing the incident.",
+      "interactional": "Recognize the accumulated effort and communicate honestly about progress and remaining uncertainty."
+    }
+  ],
+  "rules": [
+    {
+      "title": "One case, one history",
+      "description": "Preserve customer context across channels to support procedural fairness and respectful ownership."
+    },
+    {
+      "title": "Detect before explaining",
+      "description": "Identify network or payment failures proactively where technically possible so the customer carries less diagnostic effort."
+    },
+    {
+      "title": "Restore first, analyze later",
+      "description": "Restore usable service promptly without making unnecessary diagnostic steps a condition of a fair outcome."
+    },
+    {
+      "title": "Harm-matched compensation",
+      "description": "Match the remedy to severity, duration and impact so the recovery outcome is proportionate."
+    },
+    {
+      "title": "Active verification",
+      "description": "Confirm restoration with relevant checks and customer context before treating the case as resolved."
+    },
+    {
+      "title": "Structural root-cause learning",
+      "description": "Aggregate recurring failures and remove their causes to improve the fairness and reliability of future recovery."
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "field-studies",
+      "title": "Formal SERVQUAL Field Studies",
+      "rationale": "Network telemetry cannot directly measure empathy or assurance, and the supplied instrument leaves expectation and construct-validation gaps.",
+      "evidence": ["survey", "source-deck"],
+      "priority": "Proposed foundation",
+      "start": 1,
+      "end": 3,
+      "repeat": "Repeat measurement in months 10–12.",
+      "dependency": "Agree on questionnaire wording, expectation measures, sampling design and construct validation before fieldwork.",
+      "kpi": "Proposed KPI: sample adequacy, construct reliability and clearly defined perception and expectation measures.",
+      "impact": "Intended outcome: a stronger basis for judging service dimensions and choosing interventions."
+    },
+    {
+      "id": "postpaid-slos",
+      "title": "Establish Postpaid SLOs",
+      "rationale": "Premium postpaid positioning needs observable objectives across network, provisioning, support and recovery.",
+      "evidence": ["airtel-q1", "source-deck"],
+      "priority": "Proposed foundation",
+      "start": 1,
+      "end": 6,
+      "dependency": "Establish baseline measures in months 1–3 before piloting service objectives in months 4–6.",
+      "kpi": "Proposed KPI: customer effort, postpaid churn, repeat contact, p90 recovery time and entitlement success.",
+      "impact": "Intended outcome: premium value becomes testable across the complete customer journey."
+    },
+    {
+      "id": "local-reliability",
+      "title": "Close the Local Reliability Gap",
+      "rationale": "Jio’s lead in the cited national reliability and consistency measures motivates local diagnosis rather than assumptions about every location.",
+      "evidence": ["opensignal-feb", "source-deck"],
+      "priority": "Proposed delivery priority",
+      "start": 2,
+      "end": 12,
+      "dependency": "Use local diagnostics to select pilots in months 2–6 and expand only after reviewing their results in months 7–12.",
+      "kpi": "Proposed KPI: circle or cluster reliability differences, complaints per 10,000 subscribers and indoor experience.",
+      "impact": "Intended outcome: investment addresses the local service inconsistencies customers actually experience."
+    },
+    {
+      "id": "frontline-empowerment",
+      "title": "Frontline Recovery Empowerment",
+      "rationale": "Defined remedy authority can reduce unnecessary escalation for recurring classes of service failure.",
+      "evidence": ["source-deck", "survey"],
+      "priority": "Proposed recovery priority",
+      "start": 3,
+      "end": 12,
+      "dependency": "Agree on severity policy and remedy authority before a months 3–6 pilot and evidence-led expansion in months 7–12.",
+      "kpi": "Proposed KPI: time to remedy, recovery satisfaction, escalation rate and post-failure churn.",
+      "impact": "Intended outcome: capable frontline ownership makes recovery easier and more proportionate."
+    },
+    {
+      "id": "closed-loop",
+      "title": "Complaint-to-Network Closed Loop",
+      "rationale": "Linking cases to relevant network, provisioning or billing context can reduce the diagnostic burden carried by customers.",
+      "evidence": ["source-deck"],
+      "priority": "Proposed enabling capability",
+      "start": 4,
+      "end": 9,
+      "dependency": "Provide common case identifiers and telemetry access, then classify actual complaint causes before prioritising integrations.",
+      "kpi": "Proposed KPI: automatically enriched tickets, scripted troubleshooting cycles and time to identify a root cause.",
+      "impact": "Intended outcome: care teams receive the evidence needed to route and resolve exceptions more effectively."
+    },
+    {
+      "id": "zero-repeat",
+      "title": "Engineer Zero-Repeat Journeys",
+      "rationale": "Payment, entitlement, installation and channel handoffs expose customers to avoidable repeat effort when system state breaks.",
+      "evidence": ["source-deck"],
+      "priority": "Proposed process priority",
+      "start": 4,
+      "end": 12,
+      "dependency": "Map the selected journeys and assign an exception owner before redesigning their weakest handoffs.",
+      "kpi": "Proposed KPI: exception rate, repeat contact, installation on the committed date and payment-to-entitlement success.",
+      "impact": "Intended outcome: fewer broken handoffs require customers to repeat the same request."
+    }
+  ],
+  "conclusions": [
+    {
+      "area": "Monetisation",
+      "airtel": "Higher reported mobile ARPU supports the premiumisation narrative without measuring service quality directly.",
+      "jio": "Lower reported mobile ARPU accompanies a strategy built around scale and ecosystem value.",
+      "status": "Operator-reported position; strategic interpretation.",
+      "evidence": ["airtel-q1", "jio-q1"]
+    },
+    {
+      "area": "Broadband scale",
+      "airtel": "Airtel has the smaller of the two TRAI-reported total broadband subscription bases in July 2026.",
+      "jio": "Jio has the larger TRAI-reported total broadband subscription base in the same reporting period.",
+      "status": "Regulatory evidence; the total includes M2M and is broader than household broadband.",
+      "evidence": ["trai-july"]
+    },
+    {
+      "area": "Reliability & download",
+      "airtel": "Airtel trails Jio in the cited national Reliability Experience, Consistent Quality and Download Speed Experience measures.",
+      "jio": "Jio leads these specific national measures in the February 2026 Opensignal report.",
+      "status": "Independent measurement; October–December 2025 observations do not describe every local experience.",
+      "evidence": ["opensignal-feb"]
+    },
+    {
+      "area": "Specific experience strengths",
+      "airtel": "Airtel leads the cited 5G Upload Speed, Games Experience and Voice App Experience measures.",
+      "jio": "Jio’s strengths on other measured dimensions do not establish universal network superiority.",
+      "status": "Independent measurement; each metric retains its own definition and scale.",
+      "evidence": ["opensignal-feb"]
+    },
+    {
+      "area": "Customer perceptions",
+      "airtel": "Interpret Airtel’s ratings item by item with eligible counts, effect sizes and uncertainty.",
+      "jio": "Apply the same eligibility and inference rules to Jio before judging any observed difference.",
+      "status": "Workbook calculations; no validated overall SERVQUAL score or representative national satisfaction claim.",
+      "evidence": ["survey"]
+    },
+    {
+      "area": "Recovery maturity",
+      "airtel": "The premium proposition creates a strategic need for low-effort support and empowered recovery.",
+      "jio": "The larger service footprint creates a strategic need for scalable exception handling and context continuity.",
+      "status": "Managerial inference; comparable public operational recovery metrics are insufficient for a ranking.",
+      "evidence": ["airtel-q1", "jio-q1", "source-deck"]
+    },
+    {
+      "area": "Strategic action",
+      "airtel": "Make premium value observable through local reliability, process discipline, clear eligibility and owned recovery.",
+      "jio": "Protect ecosystem value by keeping exceptions, service recovery and channel handoffs coherent at scale.",
+      "status": "Recommendation; intended benefits require measurement after implementation.",
+      "evidence": ["airtel-q1", "jio-q1", "opensignal-feb", "source-deck"]
+    }
+  ],
+  "attribution": {
+    "title": "Services Marketing & Experience Standards Audit",
+    "group": "Group 6 · MBA 3rd Semester, Section D",
+    "names": ["Gurucharan S", "Alock Kumar Barik", "Pooja Soni", "Sanjay S", "Madhusree K"],
+    "institution": "Alliance School of Business, Alliance University",
+    "guide": "Dr. Kavitha R Gowda",
+    "date": "4 September 2026"
+  }
+}
